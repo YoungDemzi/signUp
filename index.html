@@ -21,36 +21,40 @@
                 
                 <br><br>You know you want to.</p>
             <div class="form-container">
-                <h1>Let's do this!</h1>
-                <form action="">
-                    
-                    <div class="input">
-                        <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name">
+                
+                <form action="#" method="get">
+                    <h1>Let's do this!</h1>
+                    <div class="form">
+                        <div class="input">
+                            <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" required>
+                        </div>
+                        <div class="input">
+                            <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                        <input type="email" name="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" required>
+                        </div>
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                        <input type="password" name="password" required>
+                        </div>
+                        <div class="input">
+                            <label for="password-conf">CONFIRM PASSWORD</label>
+                        <input type="password" name="password-conf" required>
+                        </div>
                     </div>
-                    <div class="input">
-                        <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name">
-                    </div>
-                    <div class="input">
-                        <label for="email">EMAIL</label>
-                    <input type="email" name="email">
-                    </div>
-                    <div class="input">
-                        <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone">
-                    </div>
-                    <div class="input">
-                        <label for="password">PASSWORD</label>
-                    <input type="password" name="password">
-                    </div>
-                    <div class="input">
-                        <label for="password-conf">CONFIRM PASSWORD</label>
-                    <input type="password" name="password-conf">
-                    </div>
+                    <button class="create-account">Create Account</button>
+
                 </form>
             </div>
-            <button class="create-account">Create Account</button>
+            
             <p class="already-have">Already have an account? <span><link>Log in</link></span></p>
         </div>
     </div>
